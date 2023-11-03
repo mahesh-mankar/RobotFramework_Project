@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.6 on win32)" generated="20231103 16:05:07.120" rpa="false" schemaversion="4">
+<suite id="s1" name="groupTestUsingTags" source="C:\Users\LENOVO\PycharmProjects\pythonProject\Robot_Framework_test\Robot_Automation\groupTestUsingTags.robot">
+<test id="s1-t1" name="TC1 user registration test" line="6">
+<kw name="Log To Console" library="BuiltIn">
+<arg>this is user reg test</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231103 16:05:07.151" endtime="20231103 16:05:07.151"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>user reg test is over</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231103 16:05:07.151" endtime="20231103 16:05:07.151"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" starttime="20231103 16:05:07.151" endtime="20231103 16:05:07.151"/>
+</test>
+<test id="s1-t2" name="TC3 Change user setting" line="16">
+<kw name="Log To Console" library="BuiltIn">
+<arg>this is changing user setting test</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231103 16:05:07.151" endtime="20231103 16:05:07.151"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>change users setting test is over</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231103 16:05:07.151" endtime="20231103 16:05:07.151"/>
+</kw>
+<tag>regression</tag>
+<status status="PASS" starttime="20231103 16:05:07.151" endtime="20231103 16:05:07.151"/>
+</test>
+<status status="PASS" starttime="20231103 16:05:07.120" endtime="20231103 16:05:07.151"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">regression</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="groupTestUsingTags">groupTestUsingTags</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

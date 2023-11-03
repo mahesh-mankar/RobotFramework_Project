@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.6 on win32)" generated="20231103 17:03:57.636" rpa="false" schemaversion="4">
+<suite id="s1" name="Abc" source="C:\Users\LENOVO\PycharmProjects\pythonProject\Robot_Framework_test\Robot_Automation\abc.robot">
+<test id="s1-t1" name="check URL" line="8">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231103 17:03:58.043" level="INFO">Opening browser 'chrome' to base url 'https://demo.guru99.com/test/newtours/index.php'.</msg>
+<msg timestamp="20231103 17:03:59.738" level="WARN">The chromedriver version (117.0.5938.92) detected in PATH at C:\Users\LENOVO\AppData\Local\Programs\Python\Python310\chromedriver.exe might not be compatible with the detected chrome version (118.0.5993.118); currently, chromedriver 118.0.5993.70 is recommended for chrome 118.*, so it is advised to delete the driver in PATH and retry</msg>
+<status status="PASS" starttime="20231103 17:03:58.028" endtime="20231103 17:04:09.274"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>link:REGISTER</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20231103 17:04:09.277" level="INFO">Clicking link 'link:REGISTER'.</msg>
+<status status="PASS" starttime="20231103 17:04:09.276" endtime="20231103 17:04:10.784"/>
+</kw>
+<status status="PASS" starttime="20231103 17:03:58.028" endtime="20231103 17:04:10.784"/>
+</test>
+<status status="PASS" starttime="20231103 17:03:57.636" endtime="20231103 17:04:10.784"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Abc">Abc</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20231103 17:03:59.738" level="WARN">The chromedriver version (117.0.5938.92) detected in PATH at C:\Users\LENOVO\AppData\Local\Programs\Python\Python310\chromedriver.exe might not be compatible with the detected chrome version (118.0.5993.118); currently, chromedriver 118.0.5993.70 is recommended for chrome 118.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
